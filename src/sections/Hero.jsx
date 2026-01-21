@@ -61,8 +61,8 @@ export const Hero = () => {
                                 </span>
                             </h1>
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                                Hi there, I'm Alejandro Rios - a Systems Engineer specializing in React,Next.js and Typescript.
-                                I'm a motivated junior devp, driven to learn and master new technologies and eager to collaborate
+                                Hi there, I'm Alejandro Rios - a Software Engineering Technologist in React, Next.js and Typescript.
+                                I'm a motivated junior developer, driven to learn and master new technologies and eager to collaborate
                                 with a team to build impactful solutions.
                             </p>
                         </div>
@@ -133,7 +133,7 @@ export const Hero = () => {
                     <p className="text-sm text-muted-foreground mb-6 text-center">Tecnologies I work with</p>
                     <div className="relative overflow-hidden">
                         <div className="flex animate-marquee">
-                            {[...skills, skills].map((skill, idx) => (
+                            {[...skills, ...skills].map((skill, idx) => (
                                 <div key={idx} className="shrink-0 px-8 py-4">
                                     <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">{skill}</span>
                                 </div>
