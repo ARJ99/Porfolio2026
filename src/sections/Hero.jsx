@@ -7,10 +7,13 @@ const skills = [
     "Next.js",
     "TypeScript",
     "PostgreSQL",
+    "Neon",
     "Vercel",
     "Tailwind CSS",
+    "Shadcn",
+    "Clerk",
+    "Nest.js",
     "Jest",
-    "Figma",
     "Git",
 ];
 
@@ -61,9 +64,9 @@ export const Hero = () => {
                                 </span>
                             </h1>
                             <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                                Hi there, I'm Alejandro Rios - a Software Engineering Technologist in React, Next.js and Typescript.
-                                I'm a motivated junior developer, driven to learn and master new technologies and eager to collaborate
-                                with a team to build impactful solutions.
+                                Hi there! I'm Alejandro Rios. I&apos;m a Software Engineering Technologist with a passion for continuous learning.
+                                As a Junior Developer, I&apos;m eager to bring my drive for new technologies to a collaborative team where we can build
+                                meaningful solutions together.
                             </p>
                         </div>
 

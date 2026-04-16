@@ -3,16 +3,36 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
     {
-        
+
+        title: "iBuiltThis",
+        description:
+            "This is full-stack project that allow you to showcase your projects with the community",
+        image: "/projects/project6.png",
+        tags: ["React", "Next.js", "Typescript", "Shadcn", "Tailwind", "Clerk", "Neon", "Drizzle-ORM", "Zod"],
+        link: "https://showcase-apps-pied.vercel.app/",
+        github: "https://github.com/ARJ99/ShowcaseApps",
+    },
+    {
+
+        title: "JobTracker",
+        description:
+            "This is full-stack project that allow you to showcase your projects with the community",
+        image: "/projects/project5.png",
+        tags: ["React", "Next.js", "Typescript", "Shadcn", "Tailwind", "betterAuth", "MongoDB",],
+        link: "https://application-tracker-swart.vercel.app/",
+        github: "https://github.com/ARJ99/ApplicationTracker",
+    },
+    {
+
         title: "Project Management Tool",
         description:
             "This is a landing page where I used the best practices.",
         image: "/projects/project4.png",
-        tags: ["React","Tailwind"],
+        tags: ["React", "Tailwind"],
         link: "https://code-flow-bice.vercel.app/",
         github: "https://github.com/ARJ99/CodeFlow",
     },
-    
+
     {
         title: "To do List",
         description:
@@ -71,7 +91,7 @@ export const Projects = () => {
                             {/* Image of project */}
                             <div className="relative overflow-hidden aspect-video">
                                 <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-900 group-hover:scale-110" />
-                                
+
                                 {/* Decrease bright on the cards */}
                                 <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent opacity-60" />
 

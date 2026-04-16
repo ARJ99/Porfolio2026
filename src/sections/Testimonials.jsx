@@ -3,22 +3,19 @@ import { useState } from "react";
 
 const testimonials = [
     {
-        quote:
-            "Alejandro is somone who enjoys learning new things and his postive acttitude makes him to get along with any team.",
+        quote: "Working with Alejandro was a good fit. We could pull the project off in the estimated time, and his great attitude to learn new stuff was marvelous.",
         author: "Gerson Sandoval",
         role: "Senior Developer",
-        avatar:
-            "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+        avatar: "/public/projects/profilephoto.jpg",
     },
     {
         quote:
-            "Working with Alejandro was a good fit. We could pull the project off in the estimated time, and his great attitude to learn new stuff was marvelous. ",
-        author: "Michael Rodriguez",
-        role: "Product Manager, Digital Solutions",
-        avatar:
-            "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+            "Alejandro is somone who enjoys learning new things and his postive acttitude makes him to get along with any team to pull off any project",
+        author: "Jaider Mendoza",
+        role: "Web developer",
+        avatar: "/public/projects/profilephoto.jpg",
     },
-    
+
 ];
 
 export const Testimonials = () => {
@@ -105,7 +102,7 @@ export const Testimonials = () => {
 
                             <div className="flex gap-2">
                                 {testimonials.map((_, idx) => (
-                                    <button 
+                                    <button
                                         key={idx}
                                         onClick={() => setActiveIdx(idx)}
                                         className={`w-2 h-2 rounded-full transition-all duration-300 ${idx === activeIdx
