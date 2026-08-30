@@ -51,7 +51,7 @@ export const About = () => {
                         <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                             <p>
                                 I'm a passionate Software Engineering Technologist with over 1 year of
-                                experience crafting digital products that make a difference. My
+                                experience crafting digital products. My
                                 journey started with a curiosity for how things work on the web,
                                 and it has evolved into a hobby.
                             </p>
@@ -68,9 +68,8 @@ export const About = () => {
 
                         <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                             <p className="text-lg font-medium italic text-foreground">
-                                "My mission is to create digital experiences that are not just
-                                functional, but truly delightful — products that users love to
-                                use and developers love to maintain."
+                                "I strive to create web projects with care, precision, and strong attention to detail. 
+                                For me, success means delivering a finished product that runs seamlessly and looks polished."
                             </p>
                         </div>
                     </div>

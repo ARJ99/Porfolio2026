@@ -4,6 +4,16 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 const projects = [
     {
 
+        title: "Ai headshot generator",
+        description:
+            "This web allows you to generate headshots using AI, wearing suits and professional backgrounds.",
+        image: "/projects/project7.png",
+        tags: ["React", "Next.js", "Typescript", "Shadcn", "Tailwind", "Clerk", "Neon", "Drizzle-ORM"],
+        link: "https://ai-photo-app-kappa.vercel.app/",
+        github: "https://github.com/ARJ99/AI-Photo-App",
+    },
+    {
+
         title: "iBuiltThis",
         description:
             "This is full-stack project that allow you to showcase your projects with the community",
@@ -50,16 +60,7 @@ const projects = [
         tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
         link: "#",
         github: "#",
-    },
-    {
-        title: "Fintech Dashboard",
-        description:
-            "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-        image: "/projects/project1.png",
-        tags: ["React", "Typescript", "NodeJS"],
-        link: "#",
-        github: "#",
-    },
+    }
 ];
 export const Projects = () => {
     return (
