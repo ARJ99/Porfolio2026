@@ -51,12 +51,12 @@ export const About = () => {
                         <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                             <p>
                                 I'm a passionate Software Engineering Technologist with over 1 year of
-                                experience crafting digital products. My
+                                experience crafting websites and currently pursuing a degree in Software Engineering. My
                                 journey started with a curiosity for how things work on the web,
                                 and it has evolved into a hobby.
                             </p>
                             <p>
-                                I specialize in React, Next.js, and TypeScript, building
+                                I specialize in React, Next.js, TypeScript, and NestJS building
                                 everything from sleek landing pages to complex enterprise
                                 applications. My approach combines technical excellence with a
                                 keen eye for design and user experience.
