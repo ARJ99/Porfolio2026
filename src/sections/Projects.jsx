@@ -1,7 +1,17 @@
-import { ArrowBigDown, ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
+    {
+
+        title: "BuildSpace",
+        description:
+            "This website is a e-learning platform where you can learn programming languages",
+        image: "/projects/project0.png",
+        tags: ["React", "Next.js", "Typescript", "Shadcn", "Tailwind", "Clerk", "Neon", "Drizzle-ORM"],
+        link: "https://buildspace-vert.vercel.app/",
+        github: "https://github.com/ARJ99/buildspace",
+    },
     {
 
         title: "Ai headshot generator",
