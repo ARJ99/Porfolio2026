@@ -6,14 +6,14 @@ const testimonials = [
         quote: "Working with Alejandro was a good fit. We could pull the project off in the estimated time, and his great attitude to learn new stuff was marvelous.",
         author: "Gerson Sandoval",
         role: "Senior Developer",
-        avatar: "/public/projects/profilephoto.jpg",
+        avatar: "/projects/profilephoto.jpg",
     },
     {
         quote:
             "Alejandro is somone who enjoys learning new things and his postive acttitude makes him to get along with any team to pull off any project",
         author: "Jaider Mendoza",
         role: "Web developer",
-        avatar: "/public/projects/profilephoto.jpg",
+        avatar: "/projects/profilephoto.jpg",
     },
 
 ];
