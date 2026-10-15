@@ -79,7 +79,7 @@ export const Hero = () => {
                             </a>
 
                             <AnimatedBorderButton>
-                                <a href="https://www.linkedin.com/in/alejandro-rios-jaque-4b3132218">
+                                <a href="https://www.linkedin.com/in/arj2026/">
                                     <Download className="w-5 h-5" />
                                     Download CV
                                 </a>
@@ -92,7 +92,7 @@ export const Hero = () => {
                             <span className="text-sm text-muted-foreground">Follow me: </span>
                             {[
                                 { icon: Github, href: "https://github.com/ARJ99" },
-                                { icon: Linkedin, href: "https://www.linkedin.com/in/alejandro-rios-jaque-4b3132218" },
+                                { icon: Linkedin, href: "https://www.linkedin.com/in/arj2026/" },
                             ].map((social, idx) => (
                                 <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">{<social.icon className="w-5 h-5" />}</a>
                             ))}

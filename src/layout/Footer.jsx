@@ -2,7 +2,7 @@ import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
     { icon: Github, href: "https://github.com/ARJ99", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/alejandro-rios-jaque-4b3132218", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/arj2026/", label: "LinkedIn" },
     { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
